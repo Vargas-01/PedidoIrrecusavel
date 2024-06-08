@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+   
+}
+
+#res{
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    
+}
+.pergunta{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+#sim{
+    background-color: rgb(0, 255, 0);
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 75px;
+}
+
+#nao{
+    background-color: rgb(255, 0, 0);
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 75px;
+}
+
+button {
+    color: white;
+    font-weight: 600;
+    font-size: 12pt;
+    cursor: pointer;
+    margin: 10px;
+}
+
+img{
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#voltar{
+    background-color:  #000;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 75px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#res{
+    margin-top: 20px;
+}
+
